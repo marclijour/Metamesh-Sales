@@ -1,0 +1,54 @@
+% for example, see https://www.sharelatex.com/templates/cover-letters/moderncv-banking
+\documentclass[11pt,letterpaper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+% moderncv themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+\usepackage{graphicx}                       	  % to use /includegraphics
+
+% adjust the page margins
+%\usepackage[letterpaper,top=1.2in,bottom=1.2in,left=1.2in,right=1.2in]{geometry}
+\usepackage[letterpaper,top=.5in,bottom=.5in,left=1.2in,right=1.2in]{geometry}
+
+%
+% ==================== My Data   =======================
+\input{Metamesh-data.tex}
+%
+% ==================== About Me =======================
+%\setlength{\parskip}{5em}
+\begin{document}
+%\begin{figure}
+\begin{center}
+	\includegraphics[width=4cm]{../pics/logo1}
+\end{center}
+%\end{figure}
+\maketitle
+\recomputeletterlengths
+\vspace{-1em}
+\section{Industry Expertise}
+The MetaMesh Group is a team of 30 consultants with unique demonstrated expertise in financial services, public sector, supply chain, real estate, telecommunications, and sports. Spanning 5 continents, our team understands how exponential technologies are actually used by global enterprises to achieve positive business outcomes. 
+
+Our staff has previously worked at companies like ConsenSys, Cisco, Nortel, Toyota, American Express, Rio Tinto, the Government of Ontario, and several of the Big 4 professional services firms. Our technical expertise includes exponential technologies such as Blockchain, Cybersecurity, AI, Cloud services, and the Internet of Things.
+
+\section{Services}
+Our deep technical expertise and industry knowledge is our core capability. We help large and high growth organizations leverage emerging technologies to secure a competitive advantage, achieve scale, and generate new lines of revenue. We transfer our knowledge and expertise to build your capacity.
+
+\begin{center}
+	\includegraphics[width=14cm]{../pics/3-services}
+\end{center}
+
+
+\section{Call us}
+We succeed when our clients achieve tangible business outcomes. Let’s have a conversation about the innovation trends we see in your industry. We are your trusted advisor and technology partner.
+
+\vspace{1em}
+\centering
+\url{https://www.metameshgroup.com}
+
+
+\end{document}
+
